@@ -16,7 +16,7 @@ const ToDoList = () => {
   const handleChange = (e) => {setInputValue(e.target.value)};
 
   return (
-    <div>
+    <div class>
       <h1>To Do List</h1>
       <form onSubmit={handleSubmit}>
         <input

@@ -1,3 +1,6 @@
+import BaseEffect from "./Challenges/UseEffectChallenges/BaseEffect";
+import CounterEffect from "./Challenges/UseEffectChallenges/CounterEffect";
+import FetchDatatEffect from "./Challenges/UseEffectChallenges/FetchDatatEffect";
 import Counter from "./Challenges/UseStateChallenges/Counter";
 import Profile from "./Challenges/UseStateChallenges/Profile";
 import ShoppingList from "./Challenges/UseStateChallenges/ShoppingList";
@@ -16,7 +19,10 @@ const App = () => {
     // <CopyInput />
     // <Switcher />
     // <ExampleUseEffect />
-    <FetchingData />
+    // <FetchingData />
+    // <BaseEffect />
+    // <CounterEffect />
+    <FetchDatatEffect />
   );
 };
 
