@@ -1,3 +1,4 @@
+import { createContext } from "react";
 import BaseEffect from "./Challenges/UseEffectChallenges/BaseEffect";
 import CounterEffect from "./Challenges/UseEffectChallenges/CounterEffect";
 import FetchDatatEffect from "./Challenges/UseEffectChallenges/FetchDatatEffect";
@@ -9,8 +10,15 @@ import Switcher from "./Topics/AdvanceKeys/Switcher";
 import CopyInput from "./Topics/Portal/CopyInput";
 import ExampleUseEffect from "./Topics/useEffect()/ExampleUseEffect";
 import FetchingData from "./Topics/useEffect()/FetchingData";
+import ComponentA from "./Topics/PropDrilling/ComponentA";
+import UserProfile from "./Challenges/UseContextChallenges/UserProfile";
+import { UserProvider } from "./Challenges/UseContextChallenges/UserContext";
+import UpdateUser from "./Challenges/UseContextChallenges/UpdateUser";
+
+export const Data = createContext();
 
 const App = () => {
+  const name = "Galym";
   return (
     // <Counter />
     // <ToDoList />
@@ -22,7 +30,20 @@ const App = () => {
     // <FetchingData />
     // <BaseEffect />
     // <CounterEffect />
-    <FetchDatatEffect />
+    // <FetchDatatEffect />
+
+    /* Prop Dirlling */
+
+    // <Data.Provider value={name}>
+    //   <ComponentA />
+    // </Data.Provider>
+
+    <UserProvider>
+      <UserProfile />
+      <UpdateUser />
+    </UserProvider>
+
+
   );
 };
 
