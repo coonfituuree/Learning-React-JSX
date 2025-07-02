@@ -14,6 +14,9 @@ import ComponentA from "./Topics/PropDrilling/ComponentA";
 import UserProfile from "./Challenges/UseContextChallenges/UserProfile";
 import { UserProvider } from "./Challenges/UseContextChallenges/UserContext";
 import UpdateUser from "./Challenges/UseContextChallenges/UpdateUser";
+import UseReducerInput from "./Topics/useReducer()/UseReducerInput";
+import CounterReducer from "./Challenges/UserReducerChallenges/Counter";
+
 
 export const Data = createContext();
 
@@ -38,10 +41,13 @@ const App = () => {
     //   <ComponentA />
     // </Data.Provider>
 
-    <UserProvider>
-      <UserProfile />
-      <UpdateUser />
-    </UserProvider>
+    // <UserProvider>
+    //   <UserProfile />
+    //   <UpdateUser />
+    // </UserProvider>
+
+    // <UseReducerInput />
+    <CounterReducer />
 
 
   );
