@@ -19,44 +19,47 @@ import CounterReducer from "./Challenges/UserReducerChallenges/Counter";
 import UseRefExample from "./Topics/useRef()/UseRefExample";
 import FocusInput from "./Challenges/UseRefChallenges/FocusInput";
 import Timer from "./Challenges/UseRefChallenges/Timer";
-
+import UseFetchExample from "./Topics/CustomHooks/UseFetchExample";
+import UniqueId from "./Topics/useId/UniqueId";
 
 export const Data = createContext();
 
 const App = () => {
   const name = "Galym";
   return (
-    // <Counter />
-    // <ToDoList />
-    // <Profile />
-    // <ShoppingList />
-    // <CopyInput />
-    // <Switcher />
-    // <ExampleUseEffect />
-    // <FetchingData />
-    // <BaseEffect />
-    // <CounterEffect />
-    // <FetchDatatEffect />
-
-    /* Prop Dirlling */
-    // <Data.Provider value={name}>
-    //   <ComponentA />
-    // </Data.Provider>
-    // <UserProvider>
-    //   <UserProfile />
-    //   <UpdateUser />
-    // </UserProvider>
-
-    /* UseReducer */
-    // <UseReducerInput />
-    // <CounterReducer />
-
-    /* UseRef */
-    // <UseRefExample />
-    // <FocusInput />
-    <Timer />
-
-
+    <div>
+       {/* <Counter /> */}
+       {/* <ToDoList /> */}
+       {/* <Profile /> */}
+       {/* <ShoppingList /> */}
+       {/* <CopyInput /> */}
+       {/* <Switcher /> */}
+       {/* <ExampleUseEffect /> */}
+       {/* <FetchingData /> */}
+       {/* <BaseEffect /> */}
+       {/* <CounterEffect /> */}
+       {/* <FetchDatatEffect /> */}
+      {/* /* Prop Dirlling */}
+      {/* <Data.Provider value={name}>
+         <ComponentA /> 
+      </Data.Provider> */}
+      {/* <UserProvider>
+         <UserProfile /> 
+         <UpdateUser /> 
+      </UserProvider> */}
+      {/* UseReducer */}
+      {/* <UseReducerInput />  */}
+       {/* <CounterReducer /> */}
+      {/* <UseRefExample />  */}
+       {/* <FocusInput /> */}
+       {/* <Timer /> */}
+      {/* Custom Hook */}
+      {/* <UseFetchExample />  */}
+      {/*  UseID Hook */}
+      {/* <UniqueId />
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dicta, deleniti quasi quidem totam quia! Facilis ipsa voluptate, illo nam velit eos, temporibus itaque est id eveniet amet ex ratione.</p>
+      <UniqueId /> */}
+    </div>
   );
 };
 
