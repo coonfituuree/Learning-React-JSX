@@ -16,6 +16,7 @@ import { UserProvider } from "./Challenges/UseContextChallenges/UserContext";
 import UpdateUser from "./Challenges/UseContextChallenges/UpdateUser";
 import UseReducerInput from "./Topics/useReducer()/UseReducerInput";
 import CounterReducer from "./Challenges/UserReducerChallenges/Counter";
+import UseRefExample from "./Topics/useRef()/UseRefExample";
 
 
 export const Data = createContext();
@@ -47,7 +48,8 @@ const App = () => {
     // </UserProvider>
 
     // <UseReducerInput />
-    <CounterReducer />
+    // <CounterReducer />
+    <UseRefExample />
 
 
   );
