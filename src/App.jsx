@@ -17,6 +17,8 @@ import UpdateUser from "./Challenges/UseContextChallenges/UpdateUser";
 import UseReducerInput from "./Topics/useReducer()/UseReducerInput";
 import CounterReducer from "./Challenges/UserReducerChallenges/Counter";
 import UseRefExample from "./Topics/useRef()/UseRefExample";
+import FocusInput from "./Challenges/UseRefChallenges/FocusInput";
+import Timer from "./Challenges/UseRefChallenges/Timer";
 
 
 export const Data = createContext();
@@ -37,19 +39,22 @@ const App = () => {
     // <FetchDatatEffect />
 
     /* Prop Dirlling */
-
     // <Data.Provider value={name}>
     //   <ComponentA />
     // </Data.Provider>
-
     // <UserProvider>
     //   <UserProfile />
     //   <UpdateUser />
     // </UserProvider>
 
+    /* UseReducer */
     // <UseReducerInput />
     // <CounterReducer />
-    <UseRefExample />
+
+    /* UseRef */
+    // <UseRefExample />
+    // <FocusInput />
+    <Timer />
 
 
   );
